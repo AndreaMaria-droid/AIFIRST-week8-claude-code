@@ -3,938 +3,284 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Transform leads into customers faster with ReveraMethod. Automate lead intake, qualification, and routing to respond in under 3 minutes. See 3× higher conversion rates.">
-    <title>ReveraMethod - Speed-to-Lead Intake System | Respond to Leads in Under 5 Minutes</title>
-
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
-
-    <!-- Stylesheet -->
+    <meta name="description" content="Transform leads into customers faster with ReveraMethod. Speed-to-lead intake system with 391% conversion increase.">
+    <title>ReveraMethod - Speed-to-Lead Intake System</title>
     <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- Navigation -->
-    <nav id="navbar" class="navbar">
-        <div class="nav-container">
-            <div class="nav-logo">
-                <a href="#hero">ReveraMethod</a>
+    <!-- Header -->
+    <header>
+        <nav>
+            <div class="container">
+                <div class="logo">ReveraMethod</div>
+                <ul class="nav-links">
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#how-it-works">How It Works</a></li>
+                    <li><a href="#pricing">Pricing</a></li>
+                    <li><a href="#contact" class="btn-primary">Get Started</a></li>
+                </ul>
             </div>
-            <ul class="nav-links" id="navLinks">
-                <li><a href="#features">Features</a></li>
-                <li><a href="#how-it-works">How It Works</a></li>
-                <li><a href="#pricing">Pricing</a></li>
-                <li><a href="#testimonials">Testimonials</a></li>
-            </ul>
-            <div class="nav-cta">
-                <a href="#cta" class="btn btn-primary">Get Started</a>
-            </div>
-            <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Toggle menu">
-                <span></span>
-                <span></span>
-                <span></span>
-            </button>
-        </div>
-    </nav>
-
-    <!-- Mobile Menu Overlay -->
-    <div class="mobile-menu" id="mobileMenu">
-        <button class="mobile-menu-close" id="mobileMenuClose" aria-label="Close menu">&times;</button>
-        <ul class="mobile-menu-links">
-            <li><a href="#features">Features</a></li>
-            <li><a href="#how-it-works">How It Works</a></li>
-            <li><a href="#pricing">Pricing</a></li>
-            <li><a href="#testimonials">Testimonials</a></li>
-            <li><a href="#cta" class="btn btn-primary btn-mobile">Get Started</a></li>
-        </ul>
-    </div>
+        </nav>
+    </header>
 
     <!-- Hero Section -->
     <section id="hero" class="hero">
-        <div class="hero-container">
-            <div class="hero-content">
-                <h1 class="hero-headline">Turn Leads Into Customers Before Your Competitors Even Respond</h1>
-                <p class="hero-subheadline">ReveraMethod delivers instant lead intake and qualification, ensuring you connect with prospects in seconds—not hours. Increase conversion rates by up to 391% with the speed-to-lead system built for modern businesses.</p>
-                <div class="hero-cta">
-                    <a href="#cta" class="btn btn-primary btn-large">Start Converting More Leads Today</a>
-                    <a href="#how-it-works" class="btn btn-secondary btn-large">See How It Works</a>
-                </div>
-                <div class="hero-trust">
-                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M10 0L12.2451 6.90983H19.5106L13.6327 11.1803L15.8779 18.0902L10 13.8197L4.12215 18.0902L6.36729 11.1803L0.489435 6.90983H7.75486L10 0Z" fill="#00C896"/>
-                    </svg>
-                    <span>Trusted by 500+ businesses • Average 391% conversion increase</span>
-                </div>
+        <div class="container">
+            <h1>Turn Leads Into Customers Before Your Competitors Even Respond</h1>
+            <p class="hero-subtitle">ReveraMethod delivers instant lead intake and qualification, ensuring you connect with prospects in seconds—not hours. Increase conversion rates by up to 391% with the speed-to-lead system built for modern businesses.</p>
+            <div class="cta-group">
+                <a href="#contact" class="btn-primary btn-large">Start Converting More Leads Today</a>
+                <a href="#how-it-works" class="btn-secondary btn-large">See How It Works</a>
             </div>
-            <div class="hero-visual">
-                <div class="hero-mockup">
-                    <!-- Dashboard visualization -->
-                    <div class="mockup-card">
-                        <div class="mockup-header">
-                            <div class="mockup-dot"></div>
-                            <div class="mockup-dot"></div>
-                            <div class="mockup-dot"></div>
-                        </div>
-                        <div class="mockup-content">
-                            <div class="mockup-stat">
-                                <div class="mockup-stat-value">< 60s</div>
-                                <div class="mockup-stat-label">Response Time</div>
-                            </div>
-                            <div class="mockup-bar"></div>
-                            <div class="mockup-bar short"></div>
-                            <div class="mockup-bar medium"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <p class="trust-badge">✓ Trusted by 500+ businesses • Average 391% conversion increase</p>
         </div>
     </section>
 
-    <!-- Problem Statement Section -->
-    <section id="problem" class="problem">
+    <!-- Problem Section -->
+    <section id="problem" class="section-gray">
         <div class="container">
-            <div class="section-header">
-                <h2>The Cost of Slow Response Times</h2>
-                <p class="section-subtitle">Every minute counts in lead conversion—yet most businesses are losing deals before they even respond</p>
-            </div>
+            <h2>The Cost of Slow Response Times</h2>
+            <p class="section-intro">Every minute counts in lead conversion—yet most businesses are losing deals before they even respond</p>
+
             <div class="stats-grid">
-                <div class="stat-box">
-                    <div class="stat-icon">
-                        <svg width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <circle cx="28" cy="28" r="28" fill="#E6F0FF"/>
-                            <path d="M28 18V28L34 34" stroke="#0066FF" stroke-width="3" stroke-linecap="round"/>
-                            <circle cx="28" cy="28" r="12" stroke="#0066FF" stroke-width="3"/>
-                        </svg>
-                    </div>
+                <div class="stat-card">
                     <div class="stat-number">42 hours</div>
-                    <div class="stat-label">Average industry response time</div>
+                    <p>Average industry response time</p>
                 </div>
-                <div class="stat-box">
-                    <div class="stat-icon">
-                        <svg width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <circle cx="28" cy="28" r="28" fill="#E6F9F4"/>
-                            <path d="M20 30L26 36L38 20" stroke="#00C896" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-                        </svg>
-                    </div>
+                <div class="stat-card">
                     <div class="stat-number">78%</div>
-                    <div class="stat-label">Choose the first responder</div>
+                    <p>Choose the first responder</p>
                 </div>
-                <div class="stat-box">
-                    <div class="stat-icon">
-                        <svg width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <circle cx="28" cy="28" r="28" fill="#FFF5E6"/>
-                            <path d="M28 20V28M28 36H28.02" stroke="#FFB020" stroke-width="3" stroke-linecap="round"/>
-                        </svg>
-                    </div>
+                <div class="stat-card">
                     <div class="stat-number">100x</div>
-                    <div class="stat-label">Higher conversion within 5 min vs 30 min</div>
-                </div>
-            </div>
-            <div class="problem-text">
-                <p>Every minute counts in lead conversion. Research shows that companies responding within 5 minutes are 100x more likely to connect with a lead than those waiting 30 minutes. Yet the average response time across industries is still 42 hours.</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- Solution Overview Section -->
-    <section id="solution" class="solution">
-        <div class="container">
-            <div class="solution-layout">
-                <div class="solution-visual">
-                    <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=500&fit=crop" alt="ReveraMethod Dashboard" class="solution-image">
-                </div>
-                <div class="solution-content">
-                    <h2>The Speed-to-Lead Advantage</h2>
-                    <p class="solution-intro">ReveraMethod was built to solve this critical gap. We've engineered a professional intake system that eliminates delays, reduces manual work, and ensures your sales team connects with prospects at the exact moment they're most engaged.</p>
-                    <ul class="solution-benefits">
-                        <li>
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <circle cx="12" cy="12" r="12" fill="#00C896"/>
-                                <path d="M7 12L10.5 15.5L17 9" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                            </svg>
-                            <span>Instant lead capture from all sources</span>
-                        </li>
-                        <li>
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <circle cx="12" cy="12" r="12" fill="#00C896"/>
-                                <path d="M7 12L10.5 15.5L17 9" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                            </svg>
-                            <span>Automatic qualification and scoring</span>
-                        </li>
-                        <li>
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <circle cx="12" cy="12" r="12" fill="#00C896"/>
-                                <path d="M7 12L10.5 15.5L17 9" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                            </svg>
-                            <span>Real-time routing to the right team member</span>
-                        </li>
-                        <li>
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <circle cx="12" cy="12" r="12" fill="#00C896"/>
-                                <path d="M7 12L10.5 15.5L17 9" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                            </svg>
-                            <span>24/7 automated coverage, never miss a lead</span>
-                        </li>
-                        <li>
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <circle cx="12" cy="12" r="12" fill="#00C896"/>
-                                <path d="M7 12L10.5 15.5L17 9" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                            </svg>
-                            <span>Seamless CRM integration without workflow disruption</span>
-                        </li>
-                    </ul>
+                    <p>Higher conversion within 5 min vs 30 min</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Key Features Section -->
-    <section id="features" class="features">
+    <!-- Features Section -->
+    <section id="features">
         <div class="container">
-            <div class="section-header">
-                <h2>Everything You Need to Win More Deals</h2>
-                <p class="section-subtitle">Comprehensive features designed to accelerate your lead response and maximize conversions</p>
-            </div>
+            <h2>Why ReveraMethod</h2>
+            <p class="section-intro">The first company to respond to a lead is 238% more likely to win the deal. Yet most businesses still rely on manual processes that take hours or days.</p>
+
             <div class="features-grid">
                 <div class="feature-card">
-                    <div class="feature-icon">
-                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <rect width="48" height="48" rx="8" fill="#E6F0FF"/>
-                            <path d="M24 14L26 22H34L28 27L30 35L24 30L18 35L20 27L14 22H22L24 14Z" fill="#0066FF"/>
-                        </svg>
-                    </div>
-                    <h3>Instant Lead Capture</h3>
-                    <p>Automatically capture leads from your website, ads, or referral sources in real-time. No manual entry, no delays.</p>
+                    <h3>Speed That Converts</h3>
+                    <p>Respond to every lead within seconds. Our automated intake system ensures you're always the first to engage, giving you the competitive edge that drives conversions.</p>
                 </div>
                 <div class="feature-card">
-                    <div class="feature-icon">
-                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <rect width="48" height="48" rx="8" fill="#E6F0FF"/>
-                            <circle cx="24" cy="24" r="8" stroke="#0066FF" stroke-width="2"/>
-                            <path d="M24 16V24L28 28" stroke="#0066FF" stroke-width="2" stroke-linecap="round"/>
-                        </svg>
-                    </div>
-                    <h3>Smart Qualification</h3>
-                    <p>Intelligent scoring system instantly qualifies and prioritizes leads based on your custom criteria and historical data.</p>
+                    <h3>Zero Leads Left Behind</h3>
+                    <p>24/7 automated coverage means no lead slips through the cracks—whether it's 2 PM or 2 AM, your prospects receive instant attention.</p>
                 </div>
                 <div class="feature-card">
-                    <div class="feature-icon">
-                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <rect width="48" height="48" rx="8" fill="#E6F0FF"/>
-                            <path d="M16 24L22 30L32 18" stroke="#0066FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                        </svg>
-                    </div>
-                    <h3>Intelligent Routing</h3>
-                    <p>Route high-priority leads to the right team member instantly based on availability, expertise, and workload.</p>
+                    <h3>Seamless Integration</h3>
+                    <p>Deploy in minutes, not weeks. ReveraMethod integrates with your existing CRM and workflows, delivering a 43% increase in qualified opportunities from day one.</p>
                 </div>
                 <div class="feature-card">
-                    <div class="feature-icon">
-                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <rect width="48" height="48" rx="8" fill="#E6F0FF"/>
-                            <path d="M34 18L24 28L18 22" stroke="#0066FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                            <path d="M18 32H30" stroke="#0066FF" stroke-width="2" stroke-linecap="round"/>
-                        </svg>
-                    </div>
-                    <h3>Real-Time Notifications</h3>
-                    <p>Instant alerts with complete lead context delivered to your team via email, SMS, or your preferred channel.</p>
-                </div>
-                <div class="feature-card">
-                    <div class="feature-icon">
-                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <rect width="48" height="48" rx="8" fill="#E6F0FF"/>
-                            <rect x="16" y="20" width="16" height="12" rx="2" stroke="#0066FF" stroke-width="2"/>
-                            <path d="M20 20V18C20 16 21 14 24 14C27 14 28 16 28 18V20" stroke="#0066FF" stroke-width="2" stroke-linecap="round"/>
-                        </svg>
-                    </div>
-                    <h3>CRM Integration</h3>
-                    <p>Seamlessly integrates with Salesforce, HubSpot, Pipedrive, and all major CRM platforms. No disruption to your workflow.</p>
-                </div>
-                <div class="feature-card">
-                    <div class="feature-icon">
-                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <rect width="48" height="48" rx="8" fill="#E6F0FF"/>
-                            <path d="M16 28L20 24L24 26L32 16" stroke="#0066FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                            <path d="M16 32H32" stroke="#0066FF" stroke-width="2" stroke-linecap="round"/>
-                        </svg>
-                    </div>
-                    <h3>Analytics & Insights</h3>
-                    <p>Real-time dashboards show response times, conversion rates, and team performance. Make data-driven decisions.</p>
+                    <h3>Data-Driven Optimization</h3>
+                    <p>Track every touchpoint with real-time analytics. Identify your highest-converting sources, optimize your funnel, and prove ROI to stakeholders with concrete metrics.</p>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- How It Works Section -->
-    <section id="how-it-works" class="how-it-works">
-        <div class="container-wide">
-            <div class="section-header">
-                <h2>How It Works</h2>
-                <p class="section-subtitle">Three simple steps to transform your lead response process</p>
-            </div>
-            <div class="steps-container">
-                <div class="step">
+    <section id="how-it-works" class="section-gray">
+        <div class="container">
+            <h2>How It Works</h2>
+            <p class="section-intro">Three simple steps to transform your lead response time</p>
+
+            <div class="steps-grid">
+                <div class="step-card">
                     <div class="step-number">1</div>
-                    <h3 class="step-title">Instant Capture</h3>
-                    <p class="step-description">Leads from your website, ads, or referral sources are captured immediately and entered into ReveraMethod's intelligent intake system.</p>
+                    <h3>Instant Capture</h3>
+                    <p>Leads enter through your website, ads, or landing pages and are immediately captured by ReveraMethod—no delays, no manual data entry.</p>
                 </div>
-                <div class="step-connector">
-                    <svg width="60" height="24" viewBox="0 0 60 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M0 12H55M55 12L48 5M55 12L48 19" stroke="#D4D4DC" stroke-width="2"/>
-                    </svg>
-                </div>
-                <div class="step">
+                <div class="step-card">
                     <div class="step-number">2</div>
-                    <h3 class="step-title">Automatic Qualification</h3>
-                    <p class="step-description">Our system instantly qualifies and scores each lead based on your criteria, routing high-priority prospects to the right team member in real-time.</p>
+                    <h3>Automatic Qualification</h3>
+                    <p>Our intelligent system qualifies each lead in real-time based on your custom criteria, routing high-value prospects to the right team members instantly.</p>
                 </div>
-                <div class="step-connector">
-                    <svg width="60" height="24" viewBox="0 0 60 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M0 12H55M55 12L48 5M55 12L48 19" stroke="#D4D4DC" stroke-width="2"/>
-                    </svg>
-                </div>
-                <div class="step">
+                <div class="step-card">
                     <div class="step-number">3</div>
-                    <h3 class="step-title">Immediate Engagement</h3>
-                    <p class="step-description">Your team receives instant notifications with complete lead context, enabling meaningful conversations within seconds while interest is at its peak.</p>
+                    <h3>Immediate Engagement</h3>
+                    <p>Your sales team receives instant notifications with full lead context, enabling them to reach out within seconds while interest is at its peak.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Benefits & ROI Section -->
-    <section id="benefits" class="benefits">
+    <!-- Results Section -->
+    <section id="results">
         <div class="container">
-            <div class="benefits-layout">
-                <div class="benefits-visual">
-                    <div class="roi-card">
-                        <h3>Average Results After 30 Days</h3>
-                        <div class="roi-stat">
-                            <div class="roi-stat-number">391%</div>
-                            <div class="roi-stat-label">Conversion Rate Increase</div>
-                        </div>
-                        <div class="roi-stat">
-                            <div class="roi-stat-number">< 60s</div>
-                            <div class="roi-stat-label">Average Response Time</div>
-                        </div>
-                        <div class="roi-stat">
-                            <div class="roi-stat-number">43%</div>
-                            <div class="roi-stat-label">More Qualified Opportunities</div>
-                        </div>
-                        <div class="roi-stat">
-                            <div class="roi-stat-number">24/7</div>
-                            <div class="roi-stat-label">Automated Coverage</div>
-                        </div>
-                    </div>
+            <h2>Proven Results</h2>
+            <div class="results-grid">
+                <div class="result-card">
+                    <div class="result-number">391%</div>
+                    <p>Average increase in lead-to-customer conversion rates</p>
                 </div>
-                <div class="benefits-content">
-                    <h2>Data-Driven Results</h2>
-                    <p class="benefits-intro">Unlike basic lead capture forms or generic CRM tools, ReveraMethod specializes in one thing: getting qualified leads to your team faster than anyone else.</p>
-                    <ul class="benefits-list">
-                        <li>
-                            <div class="benefit-icon">
-                                <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <circle cx="16" cy="16" r="16" fill="#E6F0FF"/>
-                                    <path d="M10 16L14 20L22 12" stroke="#0066FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                                </svg>
-                            </div>
-                            <div class="benefit-text">
-                                <strong>Higher Conversion Rates:</strong> Turn more leads into paying customers with instant response times
-                            </div>
-                        </li>
-                        <li>
-                            <div class="benefit-icon">
-                                <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <circle cx="16" cy="16" r="16" fill="#E6F0FF"/>
-                                    <path d="M10 16L14 20L22 12" stroke="#0066FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                                </svg>
-                            </div>
-                            <div class="benefit-text">
-                                <strong>Shorter Sales Cycles:</strong> Connect with prospects while they're hot and close deals faster
-                            </div>
-                        </li>
-                        <li>
-                            <div class="benefit-icon">
-                                <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <circle cx="16" cy="16" r="16" fill="#E6F0FF"/>
-                                    <path d="M10 16L14 20L22 12" stroke="#0066FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                                </svg>
-                            </div>
-                            <div class="benefit-text">
-                                <strong>Maximize Marketing ROI:</strong> Get more revenue from your existing marketing spend
-                            </div>
-                        </li>
-                        <li>
-                            <div class="benefit-icon">
-                                <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <circle cx="16" cy="16" r="16" fill="#E6F0FF"/>
-                                    <path d="M10 16L14 20L22 12" stroke="#0066FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                                </svg>
-                            </div>
-                            <div class="benefit-text">
-                                <strong>Competitive Advantage:</strong> Beat competitors to every lead and win more business
-                            </div>
-                        </li>
-                    </ul>
+                <div class="result-card">
+                    <div class="result-number">< 60s</div>
+                    <p>Average response time to new leads</p>
+                </div>
+                <div class="result-card">
+                    <div class="result-number">43%</div>
+                    <p>Increase in qualified opportunities</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Social Proof / Testimonials Section -->
-    <section id="testimonials" class="testimonials">
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="section-gray">
         <div class="container">
-            <div class="section-header">
-                <h2>Trusted by Leading Businesses</h2>
-                <p class="section-subtitle">See how companies are transforming their lead response with ReveraMethod</p>
-            </div>
+            <h2>What Our Clients Say</h2>
+
             <div class="testimonials-grid">
                 <div class="testimonial-card">
-                    <div class="quote-icon">
-                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M10 18C10 16 11 14 13 14V10C8 10 6 13 6 18C6 20 7 22 9 22C11 22 12 21 12 19C12 17 11 16 10 16V18Z" fill="#0066FF" opacity="0.2"/>
-                            <path d="M22 18C22 16 23 14 25 14V10C20 10 18 13 18 18C18 20 19 22 21 22C23 22 24 21 24 19C24 17 23 16 22 16V18Z" fill="#0066FF" opacity="0.2"/>
-                        </svg>
-                    </div>
-                    <p class="testimonial-text">Since implementing ReveraMethod, our lead-to-opportunity conversion rate increased 47% and our sales cycle shortened by 12 days. The ROI was immediate and measurable.</p>
-                    <div class="testimonial-divider"></div>
-                    <div class="testimonial-author">
-                        <div class="author-avatar">
-                            <img src="https://i.pravatar.cc/150?img=33" alt="Sarah Chen">
-                        </div>
-                        <div class="author-info">
-                            <div class="author-name">Sarah Chen</div>
-                            <div class="author-title">VP of Sales, TechFlow Solutions</div>
-                        </div>
-                    </div>
+                    <p class="testimonial-text">"ReveraMethod transformed our lead process. We went from 24-hour response times to under 2 minutes. Our close rate tripled in the first quarter."</p>
+                    <p class="testimonial-author"><strong>Sarah Chen</strong><br>VP of Sales, TechGrowth Solutions</p>
                 </div>
                 <div class="testimonial-card">
-                    <div class="quote-icon">
-                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M10 18C10 16 11 14 13 14V10C8 10 6 13 6 18C6 20 7 22 9 22C11 22 12 21 12 19C12 17 11 16 10 16V18Z" fill="#0066FF" opacity="0.2"/>
-                            <path d="M22 18C22 16 23 14 25 14V10C20 10 18 13 18 18C18 20 19 22 21 22C23 22 24 21 24 19C24 17 23 16 22 16V18Z" fill="#0066FF" opacity="0.2"/>
-                        </svg>
-                    </div>
-                    <p class="testimonial-text">We were losing deals to competitors who responded faster. ReveraMethod solved that problem overnight. Now we're the first to respond, and our close rate has tripled.</p>
-                    <div class="testimonial-divider"></div>
-                    <div class="testimonial-author">
-                        <div class="author-avatar">
-                            <img src="https://i.pravatar.cc/150?img=12" alt="Marcus Johnson">
-                        </div>
-                        <div class="author-info">
-                            <div class="author-name">Marcus Johnson</div>
-                            <div class="author-title">CEO, Quantum Marketing Group</div>
-                        </div>
-                    </div>
+                    <p class="testimonial-text">"The ROI was immediate. Within 30 days, we saw a 250% increase in qualified demos booked. The system paid for itself in week two."</p>
+                    <p class="testimonial-author"><strong>Michael Rodriguez</strong><br>Head of Marketing, DataScale Inc.</p>
                 </div>
                 <div class="testimonial-card">
-                    <div class="quote-icon">
-                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M10 18C10 16 11 14 13 14V10C8 10 6 13 6 18C6 20 7 22 9 22C11 22 12 21 12 19C12 17 11 16 10 16V18Z" fill="#0066FF" opacity="0.2"/>
-                            <path d="M22 18C22 16 23 14 25 14V10C20 10 18 13 18 18C18 20 19 22 21 22C23 22 24 21 24 19C24 17 23 16 22 16V18Z" fill="#0066FF" opacity="0.2"/>
-                        </svg>
-                    </div>
-                    <p class="testimonial-text">The integration was seamless and we were up and running in less than 24 hours. The team loves how it automatically qualifies leads and routes them intelligently. Game changer.</p>
-                    <div class="testimonial-divider"></div>
-                    <div class="testimonial-author">
-                        <div class="author-avatar">
-                            <img src="https://i.pravatar.cc/150?img=45" alt="Emily Rodriguez">
-                        </div>
-                        <div class="author-info">
-                            <div class="author-name">Emily Rodriguez</div>
-                            <div class="author-title">Director of Operations, GrowthLabs</div>
-                        </div>
-                    </div>
+                    <p class="testimonial-text">"Setup took less than an hour. The integration with our CRM was seamless, and our team was responding to leads in real-time by end of day."</p>
+                    <p class="testimonial-author"><strong>Emily Watson</strong><br>CEO, Velocity Partners</p>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Pricing Section -->
-    <section id="pricing" class="pricing">
+    <section id="pricing">
         <div class="container">
-            <div class="section-header">
-                <h2>Simple, Transparent Pricing</h2>
-                <p class="section-subtitle">Choose the plan that fits your business needs</p>
-            </div>
+            <h2>Simple, Transparent Pricing</h2>
+            <p class="section-intro">Choose the plan that fits your business</p>
+
             <div class="pricing-grid">
-                <div class="pricing-card">
-                    <h3 class="plan-name">Starter</h3>
-                    <div class="plan-price">
-                        <span class="price-currency">$</span>
-                        <span class="price-amount">99</span>
-                        <span class="price-period">/month</span>
-                    </div>
-                    <p class="plan-billing">Billed monthly</p>
-                    <div class="plan-divider"></div>
-                    <ul class="plan-features">
-                        <li>
-                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <circle cx="10" cy="10" r="10" fill="#00C896"/>
-                                <path d="M6 10L9 13L14 8" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                            </svg>
-                            <span>Up to 100 leads/month</span>
-                        </li>
-                        <li>
-                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <circle cx="10" cy="10" r="10" fill="#00C896"/>
-                                <path d="M6 10L9 13L14 8" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                            </svg>
-                            <span>Basic lead qualification</span>
-                        </li>
-                        <li>
-                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <circle cx="10" cy="10" r="10" fill="#00C896"/>
-                                <path d="M6 10L9 13L14 8" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                            </svg>
-                            <span>Email notifications</span>
-                        </li>
-                        <li>
-                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <circle cx="10" cy="10" r="10" fill="#00C896"/>
-                                <path d="M6 10L9 13L14 8" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                            </svg>
-                            <span>CRM integration</span>
-                        </li>
-                        <li>
-                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <circle cx="10" cy="10" r="10" fill="#00C896"/>
-                                <path d="M6 10L9 13L14 8" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                            </svg>
-                            <span>Basic analytics</span>
-                        </li>
-                        <li>
-                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <circle cx="10" cy="10" r="10" fill="#00C896"/>
-                                <path d="M6 10L9 13L14 8" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                            </svg>
-                            <span>Email support</span>
-                        </li>
+                <div class="price-card">
+                    <h3>Starter</h3>
+                    <div class="price">$299<span>/month</span></div>
+                    <ul class="price-features">
+                        <li>Up to 500 leads/month</li>
+                        <li>Instant lead capture</li>
+                        <li>Basic qualification rules</li>
+                        <li>Email & SMS notifications</li>
+                        <li>CRM integration</li>
                     </ul>
-                    <a href="#cta" class="btn btn-secondary btn-full">Get Started</a>
+                    <a href="#contact" class="btn-secondary">Get Started</a>
                 </div>
-                <div class="pricing-card featured">
-                    <div class="plan-badge">Most Popular</div>
-                    <h3 class="plan-name">Professional</h3>
-                    <div class="plan-price">
-                        <span class="price-currency">$</span>
-                        <span class="price-amount">299</span>
-                        <span class="price-period">/month</span>
-                    </div>
-                    <p class="plan-billing">Billed monthly</p>
-                    <div class="plan-divider"></div>
-                    <ul class="plan-features">
-                        <li>
-                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <circle cx="10" cy="10" r="10" fill="#00C896"/>
-                                <path d="M6 10L9 13L14 8" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                            </svg>
-                            <span>Up to 500 leads/month</span>
-                        </li>
-                        <li>
-                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <circle cx="10" cy="10" r="10" fill="#00C896"/>
-                                <path d="M6 10L9 13L14 8" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                            </svg>
-                            <span>Advanced AI qualification</span>
-                        </li>
-                        <li>
-                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <circle cx="10" cy="10" r="10" fill="#00C896"/>
-                                <path d="M6 10L9 13L14 8" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                            </svg>
-                            <span>Email + SMS notifications</span>
-                        </li>
-                        <li>
-                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <circle cx="10" cy="10" r="10" fill="#00C896"/>
-                                <path d="M6 10L9 13L14 8" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                            </svg>
-                            <span>All CRM integrations</span>
-                        </li>
-                        <li>
-                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <circle cx="10" cy="10" r="10" fill="#00C896"/>
-                                <path d="M6 10L9 13L14 8" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                            </svg>
-                            <span>Advanced analytics & reporting</span>
-                        </li>
-                        <li>
-                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <circle cx="10" cy="10" r="10" fill="#00C896"/>
-                                <path d="M6 10L9 13L14 8" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                            </svg>
-                            <span>Priority support</span>
-                        </li>
-                        <li>
-                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <circle cx="10" cy="10" r="10" fill="#00C896"/>
-                                <path d="M6 10L9 13L14 8" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                            </svg>
-                            <span>Custom routing rules</span>
-                        </li>
+                <div class="price-card featured">
+                    <div class="badge">Most Popular</div>
+                    <h3>Professional</h3>
+                    <div class="price">$699<span>/month</span></div>
+                    <ul class="price-features">
+                        <li>Up to 2,000 leads/month</li>
+                        <li>Advanced qualification AI</li>
+                        <li>Multi-team routing</li>
+                        <li>Real-time analytics</li>
+                        <li>Priority support</li>
                     </ul>
-                    <a href="#cta" class="btn btn-primary btn-full">Get Started</a>
+                    <a href="#contact" class="btn-primary">Get Started</a>
                 </div>
-                <div class="pricing-card">
-                    <h3 class="plan-name">Enterprise</h3>
-                    <div class="plan-price">
-                        <span class="price-currency">$</span>
-                        <span class="price-amount">699</span>
-                        <span class="price-period">/month</span>
-                    </div>
-                    <p class="plan-billing">Billed monthly</p>
-                    <div class="plan-divider"></div>
-                    <ul class="plan-features">
-                        <li>
-                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <circle cx="10" cy="10" r="10" fill="#00C896"/>
-                                <path d="M6 10L9 13L14 8" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                            </svg>
-                            <span>Unlimited leads</span>
-                        </li>
-                        <li>
-                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <circle cx="10" cy="10" r="10" fill="#00C896"/>
-                                <path d="M6 10L9 13L14 8" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                            </svg>
-                            <span>Custom AI models</span>
-                        </li>
-                        <li>
-                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <circle cx="10" cy="10" r="10" fill="#00C896"/>
-                                <path d="M6 10L9 13L14 8" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                            </svg>
-                            <span>Multi-channel notifications</span>
-                        </li>
-                        <li>
-                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <circle cx="10" cy="10" r="10" fill="#00C896"/>
-                                <path d="M6 10L9 13L14 8" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                            </svg>
-                            <span>Custom integrations</span>
-                        </li>
-                        <li>
-                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <circle cx="10" cy="10" r="10" fill="#00C896"/>
-                                <path d="M6 10L9 13L14 8" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                            </svg>
-                            <span>White-label reporting</span>
-                        </li>
-                        <li>
-                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <circle cx="10" cy="10" r="10" fill="#00C896"/>
-                                <path d="M6 10L9 13L14 8" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                            </svg>
-                            <span>Dedicated success manager</span>
-                        </li>
-                        <li>
-                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <circle cx="10" cy="10" r="10" fill="#00C896"/>
-                                <path d="M6 10L9 13L14 8" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                            </svg>
-                            <span>SLA guarantee</span>
-                        </li>
+                <div class="price-card">
+                    <h3>Enterprise</h3>
+                    <div class="price">Custom</div>
+                    <ul class="price-features">
+                        <li>Unlimited leads</li>
+                        <li>Custom AI training</li>
+                        <li>Dedicated success manager</li>
+                        <li>Advanced integrations</li>
+                        <li>SLA guarantees</li>
                     </ul>
-                    <a href="#cta" class="btn btn-secondary btn-full">Contact Sales</a>
+                    <a href="#contact" class="btn-secondary">Contact Sales</a>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- FAQ Section -->
-    <section id="faq" class="faq">
-        <div class="container-narrow">
-            <div class="section-header">
-                <h2>Frequently Asked Questions</h2>
-                <p class="section-subtitle">Everything you need to know about ReveraMethod</p>
-            </div>
-            <div class="faq-grid">
-                <div class="faq-column">
-                    <div class="faq-item">
-                        <button class="faq-question" aria-expanded="false">
-                            <span>How quickly can we get started?</span>
-                            <svg class="faq-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M6 9L12 15L18 9" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                            </svg>
-                        </button>
-                        <div class="faq-answer">
-                            <p>Most teams are fully operational within 24 hours, with full integration typically completed in under a week. Our onboarding team will guide you through the setup process step by step.</p>
-                        </div>
-                    </div>
-                    <div class="faq-item">
-                        <button class="faq-question" aria-expanded="false">
-                            <span>Does this work with our existing CRM?</span>
-                            <svg class="faq-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M6 9L12 15L18 9" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                            </svg>
-                        </button>
-                        <div class="faq-answer">
-                            <p>Yes. ReveraMethod integrates seamlessly with all major CRM platforms including Salesforce, HubSpot, Pipedrive, Zoho, and more. We also offer custom API integrations for enterprise clients.</p>
-                        </div>
-                    </div>
-                    <div class="faq-item">
-                        <button class="faq-question" aria-expanded="false">
-                            <span>What if we have a small team?</span>
-                            <svg class="faq-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M6 9L12 15L18 9" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                            </svg>
-                        </button>
-                        <div class="faq-answer">
-                            <p>ReveraMethod scales to your needs. Whether you have 2 sales reps or 200, the system ensures optimal lead distribution and response times. Small teams especially benefit from the automation.</p>
-                        </div>
-                    </div>
+    <section id="faq" class="section-gray">
+        <div class="container">
+            <h2>Frequently Asked Questions</h2>
+
+            <div class="faq-list">
+                <div class="faq-item">
+                    <h3>How quickly can we get started?</h3>
+                    <p>Most teams are up and running within 24 hours. Our onboarding process includes CRM integration, team setup, and custom qualification rules—all completed in a single session.</p>
                 </div>
-                <div class="faq-column">
-                    <div class="faq-item">
-                        <button class="faq-question" aria-expanded="false">
-                            <span>Can we customize the qualification criteria?</span>
-                            <svg class="faq-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M6 9L12 15L18 9" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                            </svg>
-                        </button>
-                        <div class="faq-answer">
-                            <p>Absolutely. You can define custom qualification rules based on industry, company size, budget, timeline, or any other criteria that matters to your business. The AI learns and improves over time.</p>
-                        </div>
-                    </div>
-                    <div class="faq-item">
-                        <button class="faq-question" aria-expanded="false">
-                            <span>Is there a contract or can we cancel anytime?</span>
-                            <svg class="faq-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M6 9L12 15L18 9" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                            </svg>
-                        </button>
-                        <div class="faq-answer">
-                            <p>Our monthly plans have no long-term contracts and you can cancel anytime with 30 days notice. For annual plans, we offer a 14-day money-back guarantee if you're not satisfied.</p>
-                        </div>
-                    </div>
-                    <div class="faq-item">
-                        <button class="faq-question" aria-expanded="false">
-                            <span>What kind of support do you provide?</span>
-                            <svg class="faq-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M6 9L12 15L18 9" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                            </svg>
-                        </button>
-                        <div class="faq-answer">
-                            <p>All plans include email support. Professional plans get priority support with faster response times. Enterprise clients receive a dedicated success manager and 24/7 phone support.</p>
-                        </div>
-                    </div>
+                <div class="faq-item">
+                    <h3>What CRMs do you integrate with?</h3>
+                    <p>We integrate with Salesforce, HubSpot, Pipedrive, Zoho, and 20+ other platforms. If you use a custom CRM, we offer API access for seamless integration.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>How does the qualification process work?</h3>
+                    <p>You define your ideal customer profile and qualification criteria. Our AI automatically scores and routes leads based on factors like company size, budget indicators, urgency signals, and engagement behavior.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>What kind of ROI can we expect?</h3>
+                    <p>Our clients see an average 391% increase in conversion rates within the first 90 days. Most achieve positive ROI within the first month as faster response times translate directly to more closed deals.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Do you offer a free trial?</h3>
+                    <p>Yes! We offer a 14-day free trial with full access to all Professional plan features. No credit card required to start.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>What kind of support do you provide?</h3>
+                    <p>All plans include email support with 24-hour response times. Professional and Enterprise plans include live chat, phone support, and dedicated success managers.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Final CTA Section -->
-    <section id="cta" class="final-cta">
-        <div class="container-narrow">
-            <div class="cta-content">
-                <h2>Ready to Transform Your Lead Response?</h2>
-                <p>Join 500+ businesses that are converting more leads with ReveraMethod. Start your free trial today—no credit card required.</p>
-                <div class="cta-buttons">
-                    <a href="#contact" class="btn btn-white btn-large">Start Free Trial</a>
-                    <a href="#demo" class="btn btn-secondary-light btn-large">Schedule a Demo</a>
-                </div>
-                <div class="cta-trust">
-                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M10 1L12 7H18L13 11L15 17L10 13L5 17L7 11L2 7H8L10 1Z" fill="white"/>
-                    </svg>
-                    <span>14-day free trial • No credit card required • Cancel anytime</span>
-                </div>
+    <!-- CTA Section -->
+    <section id="contact" class="cta-section">
+        <div class="container">
+            <h2>Ready to Transform Your Lead Response?</h2>
+            <p>Join 500+ businesses converting more leads with ReveraMethod</p>
+            <div class="cta-group">
+                <a href="#" class="btn-primary btn-large">Start Your Free Trial</a>
+                <a href="#" class="btn-secondary btn-large">Schedule a Demo</a>
             </div>
+            <p class="cta-note">14-day free trial • No credit card required • Setup in under 24 hours</p>
         </div>
     </section>
 
     <!-- Footer -->
-    <footer class="footer">
-        <div class="footer-container">
-            <div class="footer-grid">
-                <div class="footer-column">
-                    <div class="footer-logo">ReveraMethod</div>
-                    <p class="footer-tagline">Where Speed Meets Revenue</p>
-                    <p class="footer-description">Transform leads into customers with the fastest lead intake system built for modern businesses.</p>
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="logo">ReveraMethod</div>
+                    <p>Where Speed Meets Revenue</p>
                 </div>
-                <div class="footer-column">
-                    <h4 class="footer-heading">Product</h4>
-                    <ul class="footer-links">
-                        <li><a href="#features">Features</a></li>
-                        <li><a href="#pricing">Pricing</a></li>
-                        <li><a href="#how-it-works">How It Works</a></li>
-                        <li><a href="#testimonials">Testimonials</a></li>
-                        <li><a href="#integrations">Integrations</a></li>
-                    </ul>
-                </div>
-                <div class="footer-column">
-                    <h4 class="footer-heading">Resources</h4>
-                    <ul class="footer-links">
-                        <li><a href="#blog">Blog</a></li>
-                        <li><a href="#case-studies">Case Studies</a></li>
-                        <li><a href="#documentation">Documentation</a></li>
-                        <li><a href="#support">Support Center</a></li>
-                        <li><a href="#api">API Docs</a></li>
-                    </ul>
-                </div>
-                <div class="footer-column">
-                    <h4 class="footer-heading">Company</h4>
-                    <ul class="footer-links">
-                        <li><a href="#about">About Us</a></li>
-                        <li><a href="#careers">Careers</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                        <li><a href="#privacy">Privacy Policy</a></li>
-                        <li><a href="#terms">Terms of Service</a></li>
-                    </ul>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Product</h4>
+                        <ul>
+                            <li><a href="#features">Features</a></li>
+                            <li><a href="#pricing">Pricing</a></li>
+                            <li><a href="#how-it-works">How It Works</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Company</h4>
+                        <ul>
+                            <li><a href="#testimonials">Testimonials</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
-            <div class="footer-divider"></div>
             <div class="footer-bottom">
-                <div class="footer-copyright">
-                    <p>&copy; 2025 ReveraMethod. All rights reserved.</p>
-                </div>
-                <div class="footer-social">
-                    <a href="#twitter" aria-label="Twitter">
-                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M25 9.5C24.25 9.75 23.5 10 22.5 10C23.5 9.5 24.25 8.5 24.5 7.5C23.75 8 22.75 8.25 21.75 8.5C21 7.5 19.75 7 18.5 7C16 7 14 9 14 11.5C14 11.75 14 12 14 12.25C10.5 12 7.5 10.25 5.5 7.75C5.25 8.25 5 8.75 5 9.5C5 10.75 5.75 11.75 6.75 12.5C6 12.5 5.5 12.25 5 12C5 14.25 6.5 16 8.5 16.5C8.25 16.5 7.75 16.5 7.5 16.5C7.25 16.5 7 16.5 6.75 16.5C7.25 18.25 9 19.5 11 19.5C9.5 20.75 7.5 21.25 5.5 21.25H4.5C6.5 22.5 8.75 23.25 11.25 23.25C18.5 23.25 22.5 16.75 22.5 11.25V10.75C23.25 10.25 24 9.75 24.5 9C24.25 9.25 24 9.5 23.75 9.5C24.25 9.5 24.75 9.5 25 9.5Z" fill="currentColor"/>
-                        </svg>
-                    </a>
-                    <a href="#linkedin" aria-label="LinkedIn">
-                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M8 10H12V24H8V10ZM10 6C8.9 6 8 6.9 8 8C8 9.1 8.9 10 10 10C11.1 10 12 9.1 12 8C12 6.9 11.1 6 10 6ZM14 10H18V12C18.5 11 20 10 21.5 10C24.5 10 26 12 26 15V24H22V16C22 14.5 21.5 14 20.5 14C19.5 14 18 14.5 18 16V24H14V10Z" fill="currentColor"/>
-                        </svg>
-                    </a>
-                    <a href="#github" aria-label="GitHub">
-                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M16 6C10.5 6 6 10.5 6 16C6 20.5 8.75 24.25 12.5 25.5C13 25.5 13.25 25.25 13.25 25V23C10.75 23.5 10.25 21.75 10.25 21.75C9.75 20.75 9 20.5 9 20.5C8 20 9 20 9 20C10 20 10.5 21 10.5 21C11.5 22.5 13 22 13.25 21.75C13.25 21.25 13.5 20.75 13.75 20.5C11.75 20.25 9.75 19.5 9.75 16C9.75 15 10 14.25 10.5 13.5C10.5 13.25 10.25 12.5 10.75 11.25C10.75 11.25 11.5 11 13.25 12.25C14 12 14.75 12 15.5 12C16.25 12 17 12 17.75 12.25C19.5 11 20.25 11.25 20.25 11.25C20.75 12.5 20.5 13.25 20.5 13.5C21 14.25 21.25 15 21.25 16C21.25 19.5 19.25 20.25 17.25 20.5C17.5 20.75 17.75 21.25 17.75 22V25C17.75 25.25 18 25.5 18.5 25.5C22.25 24.25 25 20.5 25 16C25 10.5 20.5 6 16 6Z" fill="currentColor"/>
-                        </svg>
-                    </a>
-                </div>
-                <div class="footer-legal">
-                    <a href="#privacy">Privacy</a>
-                    <span>•</span>
-                    <a href="#terms">Terms</a>
-                    <span>•</span>
-                    <a href="#cookies">Cookies</a>
-                </div>
+                <p>&copy; 2024 ReveraMethod. All rights reserved.</p>
             </div>
         </div>
     </footer>
-
-    <!-- JavaScript -->
-    <script>
-        // Smooth scrolling for anchor links
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function (e) {
-                e.preventDefault();
-                const target = document.querySelector(this.getAttribute('href'));
-                if (target) {
-                    const offset = 80; // Account for fixed header
-                    const targetPosition = target.offsetTop - offset;
-                    window.scrollTo({
-                        top: targetPosition,
-                        behavior: 'smooth'
-                    });
-                    // Close mobile menu if open
-                    document.getElementById('mobileMenu').classList.remove('active');
-                }
-            });
-        });
-
-        // Navbar scroll effect
-        const navbar = document.getElementById('navbar');
-        let lastScroll = 0;
-
-        window.addEventListener('scroll', () => {
-            const currentScroll = window.pageYOffset;
-
-            if (currentScroll > 50) {
-                navbar.classList.add('scrolled');
-            } else {
-                navbar.classList.remove('scrolled');
-            }
-
-            lastScroll = currentScroll;
-        });
-
-        // Mobile menu toggle
-        const mobileMenuToggle = document.getElementById('mobileMenuToggle');
-        const mobileMenu = document.getElementById('mobileMenu');
-        const mobileMenuClose = document.getElementById('mobileMenuClose');
-
-        mobileMenuToggle.addEventListener('click', () => {
-            mobileMenu.classList.add('active');
-        });
-
-        mobileMenuClose.addEventListener('click', () => {
-            mobileMenu.classList.remove('active');
-        });
-
-        // Close mobile menu when clicking outside
-        mobileMenu.addEventListener('click', (e) => {
-            if (e.target === mobileMenu) {
-                mobileMenu.classList.remove('active');
-            }
-        });
-
-        // FAQ accordion
-        const faqQuestions = document.querySelectorAll('.faq-question');
-
-        faqQuestions.forEach(question => {
-            question.addEventListener('click', () => {
-                const faqItem = question.parentElement;
-                const isExpanded = question.getAttribute('aria-expanded') === 'true';
-
-                // Close all other FAQ items
-                faqQuestions.forEach(q => {
-                    if (q !== question) {
-                        q.setAttribute('aria-expanded', 'false');
-                        q.parentElement.classList.remove('active');
-                    }
-                });
-
-                // Toggle current FAQ item
-                question.setAttribute('aria-expanded', !isExpanded);
-                faqItem.classList.toggle('active');
-            });
-        });
-
-        // Scroll animations
-        const observerOptions = {
-            threshold: 0.1,
-            rootMargin: '0px 0px -100px 0px'
-        };
-
-        const observer = new IntersectionObserver((entries) => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    entry.target.classList.add('animate-in');
-                }
-            });
-        }, observerOptions);
-
-        // Observe all sections and cards
-        document.querySelectorAll('section, .feature-card, .testimonial-card, .pricing-card, .step').forEach(el => {
-            observer.observe(el);
-        });
-
-        // Active navigation link highlight
-        const sections = document.querySelectorAll('section[id]');
-        const navLinks = document.querySelectorAll('.nav-links a');
-
-        window.addEventListener('scroll', () => {
-            let current = '';
-            sections.forEach(section => {
-                const sectionTop = section.offsetTop;
-                const sectionHeight = section.clientHeight;
-                if (pageYOffset >= (sectionTop - 200)) {
-                    current = section.getAttribute('id');
-                }
-            });
-
-            navLinks.forEach(link => {
-                link.classList.remove('active');
-                if (link.getAttribute('href') === `#${current}`) {
-                    link.classList.add('active');
-                }
-            });
-        });
-    </script>
 </body>
 </html>
