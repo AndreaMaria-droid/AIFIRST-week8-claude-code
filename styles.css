@@ -460,6 +460,18 @@ strong {
     margin-bottom: var(--space-lg);
 }
 
+.booking-placeholder {
+    margin: var(--space-lg) 0;
+    padding: var(--space-lg);
+    background-color: var(--color-background-secondary);
+    border: 1px dashed var(--color-border-subtle);
+}
+
+.booking-placeholder p {
+    margin: 0;
+    color: var(--color-text-muted);
+}
+
 .reassurance {
     font-size: var(--font-size-small);
     color: var(--color-text-muted);
