@@ -1,6 +1,17 @@
 /**
  * Test client for Supabase CRM connection
- * Purpose: verify schema access and permissions
+ *
+ * This file demonstrates how Supabase CRM data would be accessed programmatically.
+ * It is not intended to be executed.
+ *
+ * Purpose: Reference code showing how to verify schema access and permissions
+ *
+ * Demonstrates:
+ * - Connecting to Supabase with service role key
+ * - Querying all CRM tables (companies, leads, conversations, notes)
+ * - Accessing database views (leads_with_companies, recent_activity)
+ * - Testing read and write permissions
+ * - Error handling patterns
  */
 
 require('dotenv').config({ path: './supabase/.env' });

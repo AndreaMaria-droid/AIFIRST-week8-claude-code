@@ -2,8 +2,18 @@
  * Personal CRM - Supabase Client Example
  *
  * This file demonstrates how to interact with your CRM database using the Supabase JS client.
+ * It is not intended to be executed.
  *
- * Installation:
+ * Purpose: Reference code showing CRUD operations for the CRM
+ *
+ * Demonstrates:
+ * - Creating, reading, updating companies and leads
+ * - Logging conversations with leads
+ * - Managing notes and tasks
+ * - Querying views and relationships
+ * - Complete example workflow
+ *
+ * Installation (if you want to run it):
  *   npm install @supabase/supabase-js dotenv
  *
  * Usage:
