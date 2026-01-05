@@ -31,7 +31,7 @@ CREATE TABLE leads (
     id UUID PRIMARY KEY DEFAULT uuid_generate_v4(),
     first_name TEXT NOT NULL,
     last_name TEXT NOT NULL,
-    email TEXT UNIQUE,
+    email TEXT NOT NULL UNIQUE,
     phone TEXT,
     title TEXT,
     company_id UUID REFERENCES companies(id) ON DELETE SET NULL,
