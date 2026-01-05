@@ -4,8 +4,8 @@
   "description": "Simple personal CRM using Supabase",
   "main": "example-client.js",
   "scripts": {
-    "example": "node example-client.js",
-    "test": "echo \"No tests yet\" && exit 0"
+    "test": "node test-connection.js",
+    "example": "node example-client.js"
   },
   "keywords": [
     "crm",
