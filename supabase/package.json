@@ -1,0 +1,22 @@
+{
+  "name": "personal-crm-supabase",
+  "version": "1.0.0",
+  "description": "Simple personal CRM using Supabase",
+  "main": "example-client.js",
+  "scripts": {
+    "example": "node example-client.js",
+    "test": "echo \"No tests yet\" && exit 0"
+  },
+  "keywords": [
+    "crm",
+    "supabase",
+    "database",
+    "contacts"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.39.0",
+    "dotenv": "^16.3.1"
+  }
+}
